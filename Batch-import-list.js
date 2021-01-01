@@ -17,7 +17,8 @@ const privateKey = "741xxxxxxxxxxxx";  //导入自己帐号的私钥
 
 const tronWeb = new TronWeb(fullNode,solidityNode,eventServer,privateKey);
 
-const contract = "TUA1hWXVeDXP3W6bREKMTo758jGJrEDF1v"  //用户设置的合约地址
+ //用户设置的合约地址
+const contract = "TUpKAGNwBAFhaF1qFCb4KfqYWkugGpGnbh"
 
 
 async function importList(list) {
